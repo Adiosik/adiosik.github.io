@@ -5,9 +5,9 @@
 }
 
 body {
-    color: #ffffff;
+    color: hsl(0, 0%, 100%);
     background-color: #1E2929;
-    background-image: url('images/background.png'), linear-gradient(#1C262700, #000000);
+    background-image: url('images/background.png'), linear-gradient(hsla(185, 16%, 13%, 0), hsl(0, 0%, 0%));
     background-repeat: no-repeat;
     background-position: right 0 top 0, left 0 bottom 0;
     background-size: 1440px auto, 100% 37.5rem;
@@ -50,7 +50,7 @@ h3 {
 }
 
 small {
-    color: #FFEBD6;
+    color: hsl(31, 100%, 92%);
     font-family: Candara, sans-serif;
     font-size: 1rem;
     line-height: 1.5;
@@ -95,32 +95,32 @@ img {
 a,
 a:link,
 a:visited {
-    color: #FFEBD6;
+    color: hsl(31, 100%, 92%);
 }
 
 a:hover,
 a:active {
-    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
 }
 
 /** Header **/
 
 header {
-    color: #000000;
+    color: hsl(0, 0%, 0%);
     background-image: url('images/background.png'),
         linear-gradient(
-            #f7d7be 0px,
-            #f7d7be 100px,
-            #edceb2 150px,
-            #edceb2 175px,
-            #cfc1ae 185px,
-            #cfc1ae 215px,
-            #abab9f 225px,
-            #abab9f 330px,
-            #959f96 340px,
-            #959f96 400px,
-            #77867f 410px,
-            #485855 600px);
+            hsl(26, 78%, 86%) 0px,
+            hsl(26, 78%, 86%) 100px,
+            hsl(28, 62%, 81%) 150px,
+            hsl(28, 62%, 81%) 175px,
+            hsl(35, 26%, 75%) 185px,
+            hsl(35, 26%, 75%) 215px,
+            hsl(60, 7%, 65%) 225px,
+            hsl(60, 7%, 65%) 330px,
+            hsl(126, 5%, 60%) 340px,
+            hsl(126, 5%, 60%) 400px,
+            hsl(152, 6%, 50%) 410px,
+            hsl(169, 10%, 31%) 600px);
     background-repeat: no-repeat;
     background-position: right 0 top 0;
     background-size: 1440px auto;
@@ -148,7 +148,7 @@ nav li {
 nav a,
 nav a:link,
 nav a:visited {
-    color: #000000;
+    color: hsl(0, 0%, 0%);
     font-size: 1rem;
     line-height: 1.25;
     text-transform: uppercase;
@@ -159,7 +159,7 @@ nav a:visited {
 
 nav a:hover,
 nav a:active {
-    color: #1E2929;
+    color: hsl(180, 15%, 14%);
 }
 
 section {
