@@ -3,9 +3,45 @@
 }
 
 body {
+    color: #FFFFFF;
+    background-color: #1E2929;
+    background-image: url('images/background.png'), linear-gradient(rgba(28, 38, 39, 0), #000);
+    background-repeat: no-repeat;
+    background-position: right 0 top 0, left 0 bottom 0;
+    background-size: 1440px auto, 100% 37.5rem;
     font-family: Candara, serif;
     font-weight: 700;
     margin: 0;
+}
+
+header {
+    color: #000000;
+    background-image: url('images/background.png'),
+        linear-gradient(
+            #f7d7be 0px,
+            #f7d7be 100px,
+            #edceb2 150px,
+            #edceb2 175px,
+            #cfc1ae 185px,
+            #cfc1ae 215px,
+            #abab9f 225px,
+            #abab9f 330px,
+            #959f96 340px,
+            #959f96 400px,
+            #77867f 410px,
+            #485855 600px);
+    background-repeat: no-repeat;
+    background-position: right 0 top 0;
+    background-size: 1440px auto;
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+header small {
+    color: #000000;
+    border-left: 2px solid #000000;
 }
 
 /*** Reusable ***/
@@ -63,7 +99,7 @@ li {
 }
 
 p {
-    font-size: 1.375rem; 
+    font-size: 1.375rem;
     line-height: 1.5;
     margin-top: 0;
     margin-bottom: 2rem;
@@ -86,22 +122,7 @@ a:visited {
 
 a:hover,
 a:active {
-    color: #000000;
-}
-
-/*** Header ***/
-
-header {
-    color: #000000;
-    display: inline-block;
-    margin-bottom: 2rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-}
-
-header small {
-    color: #000000;
-    border-left: 2px solid #000000;
+    color: #FFFFFF;
 }
 
 /** Navigation **/
@@ -131,12 +152,11 @@ nav a:visited {
 
 nav a:hover,
 nav a:active {
-    color: blue;
+    color: #1e2929
 }
 
 footer,
 main {
-    margin-bottom: 1rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
 }
