@@ -228,7 +228,16 @@ nav a:active {
 
 @media(min-width: 960px) {
     .technologies {
-    max-width: 36rem;
+        max-width: 36rem;
+    }
+    
+}
+
+/** Other-skills **/
+
+@media(min-width: 960px) {
+    .other-skills {
+        max-width: 36rem;
     }
     
 }
