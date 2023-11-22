@@ -61,6 +61,7 @@ h2 {
 @media(min-width: 960px) {
     h2 {
         font-size: 4rem;
+        margin-bottom: 1.125rem;
     }
 }
 
@@ -223,8 +224,23 @@ nav a:active {
     color: hsl(180, 15%, 14%);
 }
 
+/** Technologies **/
+
+@media(min-width: 960px) {
+    .technologies {
+    max-width: 36rem;
+    }
+    
+}
+
 section {
     margin-bottom: 4rem;
+}
+
+@media(min-width: 960px) {
+    section {
+        margin-bottom: 6rem;
+    }
 }
 
 article {
