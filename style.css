@@ -300,7 +300,7 @@ nav a:active {
 
 @media(min-width: 960px) {
     .other-skills {
-        max-width: 36rem;
+        max-width: 50%;
     }
     
 }
@@ -309,7 +309,7 @@ nav a:active {
 
 @media(min-width: 960px) {
     .contacts {
-        max-width: 36rem;
+        max-width: 50%;
     }
     
 }
