@@ -302,14 +302,14 @@ nav a:active {
     .other-skills {
         max-width: 50%;
     }
-    
 }
 
 /** Contacts **/
 
 @media(min-width: 960px) {
-    .contacts {
+    .contacts-description {
         max-width: 50%;
+        display: flex;
+        column-gap: 1.5rem;
     }
-    
 }
