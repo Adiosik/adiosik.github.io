@@ -289,6 +289,11 @@ nav a:active {
     }
 }
 
+.project-img {
+    max-height: 90vh, 90dvh;
+    overflow: hidden;
+}
+
 @media(min-width: 1280px) {
     .project-img {
         flex: 1 1 40.5rem;
