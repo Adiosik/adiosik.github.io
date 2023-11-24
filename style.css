@@ -134,8 +134,10 @@ li {
 
 img {
     display: block;
+    width: auto;
     max-width: 100%;
     height: auto;
+    max-height: 90vh;
     margin-bottom: 1.5rem;
 }
 
