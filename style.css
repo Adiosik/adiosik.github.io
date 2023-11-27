@@ -101,7 +101,7 @@ small {
 @media(min-width: 960px) {
     small {
         font-size: 1.375rem;
-        line-height: 1.25;
+        line-height: 1;
         border-left: none;
         display: flex;
         align-items: center;
@@ -112,8 +112,8 @@ small {
     small::before {
         background-color: currentColor;
         content: "";
-        width: 4.5rem;
         height: 0.125rem;
+        flex: 0 0 4.5rem;
     }
 }
 
@@ -274,7 +274,7 @@ nav a:active {
 
 /** Projects **/
 
-@media(min-width: 1280px) {
+@media(min-width: 960px) {
     .project {
         max-width: initial;
         display: flex;
@@ -291,14 +291,14 @@ nav a:active {
     display: contents;
 }
 
-@media(min-width: 1280px) {
+@media(min-width: 960px) {
     .project-text {
         display: initial;
         flex: 1 1 26rem;
     }
 }
 
-@media(min-width: 1280px) {
+@media(min-width: 960px) {
     .project-img {
         flex: 1 1 40.5rem;
         margin: 0;
