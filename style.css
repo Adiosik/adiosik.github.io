@@ -30,24 +30,23 @@ body {
     .container {
         padding-left: 2rem;
         padding-right: 2rem;
-    } 
+    }
 }
 
 .container-header {
     background-image: url('images/background.png'),
-    linear-gradient(
-    hsl(26, 78%, 86%) 0px,
-    hsl(26, 78%, 86%) 100px,
-    hsl(28, 62%, 81%) 150px,
-    hsl(28, 62%, 81%) 175px,
-    hsl(35, 26%, 75%) 185px,
-    hsl(35, 26%, 75%) 215px,
-    hsl(60, 7%, 65%) 225px,
-    hsl(60, 7%, 65%) 330px,
-    hsl(126, 5%, 60%) 340px,
-    hsl(126, 5%, 60%) 400px,
-    hsl(152, 6%, 50%) 410px,
-    hsl(169, 10%, 31%) 600px);
+        linear-gradient(hsl(26, 78%, 86%) 0px,
+            hsl(26, 78%, 86%) 100px,
+            hsl(28, 62%, 81%) 150px,
+            hsl(28, 62%, 81%) 175px,
+            hsl(35, 26%, 75%) 185px,
+            hsl(35, 26%, 75%) 215px,
+            hsl(60, 7%, 65%) 225px,
+            hsl(60, 7%, 65%) 330px,
+            hsl(126, 5%, 60%) 340px,
+            hsl(126, 5%, 60%) 400px,
+            hsl(152, 6%, 50%) 410px,
+            hsl(169, 10%, 31%) 600px);
     background-repeat: no-repeat;
     background-position: right 0 top 0;
     background-size: 1440px auto;
@@ -130,6 +129,7 @@ small {
         margin-bottom: 1.125rem;
         padding: 0;
     }
+
     small::before {
         background-color: currentColor;
         content: "";
@@ -236,6 +236,7 @@ header small {
 
 nav ul {
     text-align: right;
+    padding-right: 1.125rem;
     margin-bottom: 3rem;
 }
 
@@ -318,12 +319,15 @@ nav a:active {
 
 /** Contacts **/
 
-
 @media (min-width: 960px) {
     .contacts-description {
         max-width: 50%;
         display: flex;
         column-gap: 1.5rem;
+    }
+
+    .contacts-description p {
+        flex: 1 0 auto;
     }
 }
 
