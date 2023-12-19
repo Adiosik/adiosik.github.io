@@ -14,6 +14,19 @@ body {
     margin: 0;
 }
 
+/*** Links ***/
+
+a,
+a:link,
+a:visited {
+    color: hsl(31, 100%, 92%);
+}
+
+a:hover,
+a:active {
+    color: hsl(0, 0%, 100%);
+}
+
 .container-body {
     background-size: 
         var(--bg-width) auto, 
@@ -208,19 +221,6 @@ section {
     section {
         margin-bottom: 6.25rem;
     }
-}
-
-/*** Links ***/
-
-a,
-a:link,
-a:visited {
-    color: hsl(31, 100%, 92%);
-}
-
-a:hover,
-a:active {
-    color: hsl(0, 0%, 100%);
 }
 
 /** Header **/
