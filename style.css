@@ -269,21 +269,16 @@ header small {
 
 /** Navigation **/
 
-nav ul {
+nav {
     text-align: right;
     padding-right: 1.125rem;
     margin-bottom: 3rem;
 }
 
 @media (min-width: 960px) {
-    nav ul {
+    nav {
         margin-bottom: 8rem;
     }
-}
-
-nav li {
-    display: inline-block;
-    margin-left: 0.375rem;
 }
 
 nav a,
@@ -294,7 +289,8 @@ nav a:visited {
     line-height: 1.25;
     text-transform: uppercase;
     text-decoration: none;
-    display: block;
+    display: inline-block;
+    margin-left: 0.375rem;
     padding: 0.5rem 0.375rem;
 }
 
