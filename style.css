@@ -189,6 +189,18 @@ span {
     display: inline-block;
 }
 
+@media (min-width: 400px) {
+    .header-span {
+        display: none;
+    }
+}
+
+@media (min-width: 310px) {
+    .technologies-span {
+        display: none;
+    }
+}
+
 section {
     margin-bottom: 4rem;
 }
