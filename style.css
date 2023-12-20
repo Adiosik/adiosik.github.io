@@ -213,35 +213,35 @@ span {
     }
 }
 
-section {
+.main-section {
     margin-bottom: 4rem;
 }
 
 @media (min-width: 960px) {
-    section {
+    .main-section {
         margin-bottom: 6.25rem;
     }
 }
 
 /** Header **/
 
-header {
+.header-main {
     color: hsl(0, 0%, 0%);
     margin-bottom: 4rem;
 }
 
 @media (min-width: 960px) {
-    header {
+    .header-main {
         margin-bottom: 6.25rem;
     }
 }
 
-.overheading-header {
+.header-overhrading {
     color: inherit;
 }
 
 @media (min-width: 960px) {
-    .overheading-header {
+    .header-overhrading {
         margin-bottom: 1.75rem;
     }
 }
