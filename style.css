@@ -92,15 +92,12 @@ li {
     list-style-type: "— ";
 }
 
-span {
+.prevent-wrap {
     display: inline-block;
 }
 
-@media (min-width: 400px) {
-    .header-span {
-        display: none;
-    }
-    .technologies-span {
+@media (min-width: 360px) {
+    .hidden-shy {
         display: none;
     }
 }
