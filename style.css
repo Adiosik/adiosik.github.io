@@ -252,21 +252,21 @@ span {
 
 /** Navigation **/
 
-nav {
+.navigation {
     text-align: right;
     padding-right: 1.125rem;
     margin-bottom: 3rem;
 }
 
 @media (min-width: 960px) {
-    nav {
+    .navigation {
         margin-bottom: 8rem;
     }
 }
 
-nav a,
-nav a:link,
-nav a:visited {
+.navigation a,
+.navigation a:link,
+.navigation a:visited {
     color: hsl(0, 0%, 0%);
 
     font-size: 1rem;
@@ -280,8 +280,8 @@ nav a:visited {
     margin-left: 0.375rem;
 }
 
-nav a:hover,
-nav a:active {
+.navigation a:hover,
+.navigation a:active {
     color: hsl(180, 15%, 14%);
 }
 
