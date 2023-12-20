@@ -236,12 +236,12 @@ span {
     }
 }
 
-.header-overhrading {
+.header-overheading {
     color: inherit;
 }
 
 @media (min-width: 960px) {
-    .header-overhrading {
+    .header-overheading {
         margin-bottom: 1.75rem;
     }
 }
