@@ -92,13 +92,13 @@ li {
     list-style-type: "— ";
 }
 
-.prevent-wrap {
-    display: inline-block;
+.hidden-wrap::after {
+    content: "­";
 }
 
 @media (min-width: 360px) {
-    .hidden-shy {
-        display: none;
+    .hidden-wrap::after {
+        content: none;
     }
 }
 
