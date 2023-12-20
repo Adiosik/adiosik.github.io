@@ -100,9 +100,6 @@ span {
     .header-span {
         display: none;
     }
-}
-
-@media (min-width: 310px) {
     .technologies-span {
         display: none;
     }
@@ -316,10 +313,11 @@ span {
 
 .project img {
     display: block;
-    width: auto;
     max-width: 100%;
     height: auto;
     max-height: 90vh;
+    object-fit: contain;
+    object-position: 0;
 
     margin-bottom: 1.5rem;
 }
