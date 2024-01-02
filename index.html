@@ -8,22 +8,33 @@
             content="Daniel Šimanský, a Czech frontend developer, presents his portfolio highlighting skills in HTML, CSS, JavaScript, Git, and more. Explore projects like Alpha, Beta, and Gamma. Contact for collaboration or connect on LinkedIn/GitHub."
         />
         <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap"
+            rel="stylesheet"
+        />
         <title>Dan Šimanský – Portfolio</title>
     </head>
 
     <body>
         <div class="container-body">
-            <header class="header-main">
-                <div class="container-header">
+            <header class="header">
+                <div class="header__container">
                     <nav class="navigation">
-                        <a href="#technologies">Technologies</a>
-                        <a href="#projects">Projects</a>
-                        <a href="#other-skills">Other skills</a>
-                        <a href="#contacts">Contacts</a>
+                        <a href="#technologies" class="navigation__link">Technologies</a>
+                        <a href="#projects" class="navigation__link">Projects</a>
+                        <a href="#other-skills" class="navigation__link">Other skills</a>
+                        <a href="#contacts" class="navigation__link">Contacts</a>
                     </nav>
-                    <div class="container">
-                        <h1><small class="overheading header-overheading">Frontend developer</small> Daniel Šiman<span class="hidden-wrap"></span>ský</h1>
-                        <div class="header-text">
+                    <div class="header__content container">
+                        <h1>
+                            <small class="overheading overheading--h1">Frontend developer</small> Daniel Šiman<span
+                                class="hidden-wrap"
+                            ></span
+                            >ský
+                        </h1>
+                        <div class="header__text">
                             <p>
                                 I’m Dan a front end developer based in Czechia. These are the words that tell you basic
                                 stuff about me. Not much details but also a bit of my personality shows here.
@@ -35,9 +46,12 @@
 
             <div class="container">
                 <main>
-                    <section class="main-section technologies" id="technologies">
+                    <section class="section" id="technologies">
                         <h2>
-                            Technolo<span class="hidden-wrap"></span>gies
+                            <small class="overheading">What can I work with</small>Technolo<span
+                                class="hidden-wrap"
+                            ></span
+                            >gies
                         </h2>
                         <ul>
                             <li>HTML</li>
@@ -48,12 +62,12 @@
                         </ul>
                     </section>
 
-                    <section class="main-section projects" id="projects">
+                    <section class="section" id="projects">
                         <h2><small class="overheading">What did I do</small> Projects</h2>
 
                         <article class="project">
-                            <div class="project-text">
-                                <h3>Project Alpha</h3>
+                            <div class="project__description">
+                                <h3 class="project__name">Project Alpha</h3>
                                 <p>
                                     The description of the project, what was done by you, what have you learned. What
                                     were the technologies and methodologies used to create this project.
@@ -63,8 +77,9 @@
                                     <a href="https://github.com/Adiosik">source code on GitHub</a>
                                 </p>
                             </div>
-                            <div class="project-img">
+                            <div class="project__image-container">
                                 <img
+                                    class="project__photo"
                                     src="https://satyr.dev/1296x972/1"
                                     srcset="
                                         https://satyr.dev/280x4:3/1   280w,
@@ -84,8 +99,8 @@
                         </article>
 
                         <article class="project">
-                            <div class="project-text">
-                                <h3>Project Beta</h3>
+                            <div class="project__description">
+                                <h3 class="project__name">Project Beta</h3>
                                 <p>
                                     The description of the project, what was done by you, what have you learned. What
                                     were the technologies and methodologies used to create this project.
@@ -95,8 +110,9 @@
                                     <a href="https://github.com/Adiosik">source code on GitHub</a>
                                 </p>
                             </div>
-                            <div class="project-img">
+                            <div class="project__image-container">
                                 <img
+                                    class="project__photo"
                                     src="https://satyr.dev/1296x972/1"
                                     srcset="
                                         https://satyr.dev/280x4:3/1   280w,
@@ -116,8 +132,8 @@
                         </article>
 
                         <article class="project">
-                            <div class="project-text">
-                                <h3>Project Gamma</h3>
+                            <div class="project__description">
+                                <h3 class="project__name">Project Gamma</h3>
                                 <p>
                                     The description of the project, what was done by you, what have you learned. What
                                     were the technologies and methodologies used to create this project.
@@ -127,8 +143,9 @@
                                     <a href="https://github.com/Adiosik">source code on GitHub</a>
                                 </p>
                             </div>
-                            <div class="project-img">
+                            <div class="project__image-container">
                                 <img
+                                    class="project__photo"
                                     src="https://satyr.dev/1296x972/1"
                                     srcset="
                                         https://satyr.dev/280x4:3/1   280w,
@@ -150,7 +167,7 @@
                         </article>
                     </section>
 
-                    <section class="main-section other-skills" id="other-skills">
+                    <section class="section" id="other-skills">
                         <h2><small class="overheading">More about me</small> Other skills</h2>
                         <ul>
                             <li>English B1</li>
@@ -158,10 +175,12 @@
                             <li>Divers license</li>
                         </ul>
                     </section>
+                </main>
 
-                    <section class="main-section contacts" id="contacts">
+                <footer>
+                    <section class="section" id="contacts">
                         <h2><small class="overheading">Let’s talk</small> Contacts</h2>
-                        <div class="contacts-description">
+                        <div class="contacts">
                             <img
                                 src="https://satyr.dev/384"
                                 srcset="https://satyr.dev/192/10 192w, https://satyr.dev/384/11 384w"
@@ -183,10 +202,6 @@
                             </p>
                         </div>
                     </section>
-                </main>
-
-                <footer>
-                    <p>© 2023 Daniel Šimanský</p>
                 </footer>
             </div>
         </div>
