@@ -9,8 +9,8 @@ body {
     background-color: hsl(0, 0%, 0%);
     color: hsl(0, 0%, 100%);
 
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
 
     margin: 0;
 }
@@ -117,9 +117,9 @@ section {
 .overheading {
     color: hsl(31, 100%, 92%);
 
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.375em;
     text-transform: uppercase;
