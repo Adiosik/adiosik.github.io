@@ -4,7 +4,7 @@ It is showcases frontend development skills, with a focus on HTML, CSS using BEM
 You can find demo at [Portfolio Web Page](adiosik.github.io/)
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,git,figma)](https://skillicons.dev)
-* HTML
-* CSS (BEM methodology)
-* Responsive Design (Media Queries)
-* Optimized Image Display
+- **HTML**
+- **CSS** - BEM
+- **Responsive Design** - Media Queries
+- **Optimized Image Display**
