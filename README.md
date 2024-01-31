@@ -5,6 +5,6 @@ You can find demo at [Portfolio Web Page](https://adiosik.github.io/)
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,git,figma)](https://skillicons.dev)
 - **HTML**
-- **CSS** - BEM
-- **Responsive Design** - Media Queries
+- **CSS** –⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ BEM
+- **Responsive Design** –⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Media Queries
 - **Optimized Image Display**
