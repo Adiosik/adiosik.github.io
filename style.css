@@ -323,7 +323,7 @@ section {
 @media (min-width: 960px) {
     .project__description {
         display: initial;
-        flex: 1 1 26rem;
+        flex: 1 1 52rem;
     }
 }
 
