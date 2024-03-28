@@ -87,6 +87,8 @@ ul {
 }
 
 ul {
+    column-width: 18ch;
+    column-gap: 2rem;
     padding-left: 1.6875rem;
 }
 
